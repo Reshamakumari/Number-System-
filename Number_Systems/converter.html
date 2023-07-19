@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link href="conversion.css" rel="stylesheet">
+        <script type = "text/javascript" src="converter.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+<body>
+<div id="main">
+
+    <div id="parent">
+      <h1>Number System Converter</h1>
+      
+
+        <div id="other">
+          <div id="paBin" class="center">
+            <input id="bin" placeholder="Binary Number" autocomplete="off">
+            <div class="btn">
+              <button onclick="resultBin()"> Convert </button>
+            </div>
+          </div>
+        <br>
+          <div id="paHex" class="center">
+            <input id="hex" placeholder="Hexadecimal Number" autocomplete="off">
+            <div class="btn">
+              <button class="up" onclick="resultHex()"> Convert </button>
+            </div>
+          </div>
+        </div>
+      <br>
+      <div id="other">
+          <div id="paOct" class="center">
+            <input id="oct" placeholder="Octal Number" autocomplete="off">
+            <div class="btn">
+              <button class="up" onclick="resultOct()"> Convert </button>
+            </div>
+          
+        </div>
+        <br>
+        <div id="another" class="center">
+          <input id="dec" placeholder="Decimal Number" autocomplete="off">
+          <div class="btn">
+            <button onclick="resultDec()"> Convert </button>
+        </div>
+        </div>
+        </div>
+        <br>
+        
+        <div class="btn">
+          <button id = "reset" onclick="reset()"> Reset </button>
+     
+      </div>
+
+      
+      
+  </div>
+  </body>
+  </html>
